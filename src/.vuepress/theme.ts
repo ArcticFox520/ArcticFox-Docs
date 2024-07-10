@@ -49,7 +49,7 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "https://github.com/ArcticFox520/ArcticFox-Docs",
+      repo: "ArcticFox520/ArcticFox-Docs",
       repoId: "R_kgDOMT956A",
       category: "Announcements",
       categoryId: "DIC_kwDOMT956M4Cgq5U",

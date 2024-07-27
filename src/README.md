@@ -22,12 +22,7 @@ highlights:
   - header: 宗旨
     highlights:
       - title: 化繁为简、轻装上阵。
-  - header: 功能展示
-    description: ArcticFox Script 特点
-    image:
-    bgImage:
-    bgImageDark:
-    bgImageStyle:
+  - header: ArcticFox Script 特点
       background-repeat: repeat
       background-size: initial
     features:

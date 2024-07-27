@@ -1,8 +1,8 @@
 ---
 home: true
-icon: public/icon.png
-title: 项目主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+icon: https://www.arcticfox.top/avatar.jpg
+title: ArcticFox Script Docs
+heroImage: https://www.arcticfox.top/avatar.jpg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -10,33 +10,28 @@ bgImageStyle:
 heroText: ArcticFox Help Docs
 tagline: ArcticFox 帮助文档
 actions:
-  - text: 使用指南
+  - text: 快速开始
     icon: lightbulb
-    link: ./demo/
+    link: ./Start/
     type: primary
 
   - text: 文档
-    link: ./guide/
+    link: ./Docs/
 
 highlights:
-  - header: 易于安装
-    image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+  - header: 宗旨
     highlights:
-      - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
-
-  - header: 在 Markdown 中添加你想要的内容
-    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
-    image: /assets/image/markdown.svg
+      - title: 化繁为简、轻装上阵。
+  - header: 功能展示
+    description: ArcticFox Script基本功能展示。
+    image: https://www.arcticfox.top/avatar.jpg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: 链接检查
+      - title: Bot的部署与管理
         icon: clipboard-check
         details: 检查 Markdown 链接
         link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check

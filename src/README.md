@@ -23,6 +23,7 @@ highlights:
     highlights:
       - title: 化繁为简、轻装上阵。
   - header: ArcticFox Script 特点
+    bgImageStyle:
       background-repeat: repeat
       background-size: initial
     features:

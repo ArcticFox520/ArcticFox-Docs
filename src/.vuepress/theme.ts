@@ -4,18 +4,18 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://docs.arcticfox.top",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "ArcticFox",
+    url: "https://www.arcticfox.top",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://www.arcticfox.top/avatar.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "github.com/ArcticFox520/ArcticFox-Docs",
 
   docsDir: "src",
 

@@ -27,7 +27,7 @@ export default hopeTheme({
 
   // 页脚
   footer: "默认页脚",
-  displayFooter: true,
+  displayFooter: false,
 
   // 加密配置
   encrypt: {
@@ -148,24 +148,24 @@ export default hopeTheme({
     //   manifest: {
     //     icons: [
     //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
+    //         src: "/assets/icon/favicon.ico",
     //         sizes: "512x512",
     //         purpose: "maskable",
     //         type: "image/png",
     //       },
     //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
+    //         src: "/assets/icon/favicon.ico",
     //         sizes: "192x192",
     //         purpose: "maskable",
     //         type: "image/png",
     //       },
     //       {
-    //         src: "/assets/icon/chrome-512.png",
+    //         src: "/assets/icon/favicon.ico",
     //         sizes: "512x512",
     //         type: "image/png",
     //       },
     //       {
-    //         src: "/assets/icon/chrome-192.png",
+    //         src: "/assets/icon/favicon.ico",
     //         sizes: "192x192",
     //         type: "image/png",
     //       },

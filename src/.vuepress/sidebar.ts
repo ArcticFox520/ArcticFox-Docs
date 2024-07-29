@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/install": [
+  "/install/": [
     {
       text: "Windows",
       icon: "fa-brands fa-windows",

@@ -1,12 +1,13 @@
 ---
 home: true
+heroFullScreen: true
 icon: https://www.arcticfox.top/avatar.jpg
 title: ArcticFox Script Docs
 heroImage: https://www.arcticfox.top/avatar.jpg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: https://dl.img.timecdn.cn/2024/06/14/352.jpg!h.webp
 bgImageStyle:
-  background-attachment: fixed
+  opacity: 0.5
+  background-position: 50% 60%
 heroText: ArcticFox Help Docs
 tagline: 化繁为简 - 轻装上阵
 actions:

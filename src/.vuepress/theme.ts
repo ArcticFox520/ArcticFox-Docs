@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "https://www.arcticfox.top/avatar.jpg",
 
-  repo: "github.com/ArcticFox520/ArcticFox-Docs",
+  repo: "ArcticFox520/ArcticFox-Docs",
 
   docsDir: "src",
 

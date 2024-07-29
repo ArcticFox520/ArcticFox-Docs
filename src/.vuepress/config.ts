@@ -13,4 +13,14 @@ export default defineUserConfig({
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
+  plugins: [
+    [
+      "md-enhance",
+      {
+        container: true,
+        align: true,
+      },
+    ],
+  ],
 });
+

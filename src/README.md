@@ -21,16 +21,7 @@ actions:
 highlights:
   - header: 宗旨
     highlights:
-      - title: 化繁为简、轻装上阵。
-  - header: ArcticFox Script 特点
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
-    features:
-      - title: <h3 align="center">操作简单</h3>
-      - title: <h3 align="center">原生支持</h3>
-      - title: <h3 align="center">广泛兼容</h3>
-      - title: <h3 align="center">积极维护</h3>
+      - title: 化繁为简 - 轻装上阵
  
 copyright: false
 footer: © 2024 ArcticFox

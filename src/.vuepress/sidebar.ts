@@ -1,26 +1,25 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
-    "",
-    "portfolio",
+  "/install": [
     {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "Windows",
+      icon: "fa-brands fa-windows",
+      prefix: "",
+      link: "/install/windows/",
       children: "structure",
     },
     {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
+      text: "Linux",
+      icon: "fa-brands fa-linux",
+      link: "/install/linux/",
       children: "structure",
     },
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+      text: "Android",
+      icon: "fa-brands fa-android",
+      link: "/install/android/",
+      children: "structure",
     },
   ],
 });

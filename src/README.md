@@ -12,11 +12,11 @@ tagline: ArcticFox 帮助文档
 actions:
   - text: 安装文档
     icon: lightbulb
-    link: ./start/
+    link: /install/
     type: primary
 
   - text: 使用文档
-    link: ./docs/
+    link: /use/
 
 highlights:
   - header: 宗旨

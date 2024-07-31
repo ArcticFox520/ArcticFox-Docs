@@ -4,10 +4,10 @@ heroFullScreen: true
 icon: https://www.arcticfox.top/avatar.jpg
 title: ArcticFox Script Docs
 heroImage: https://www.arcticfox.top/avatar.jpg
-bgImage:
+bgImage: https://dl.img.timecdn.cn/2024/06/14/352.jpg
 bgImageStyle:
-  opacity: 0.5
-  background-position: 50% 60%
+  opacity: 0.6
+  background-position: 100% 100%
 heroText: ArcticFox Help Docs
 tagline: 化繁为简 - 轻装上阵
 actions:

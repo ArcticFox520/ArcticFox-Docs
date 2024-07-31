@@ -4,7 +4,7 @@ heroFullScreen: true
 icon: https://www.arcticfox.top/avatar.jpg
 title: ArcticFox Script Docs
 heroImage: https://www.arcticfox.top/avatar.jpg
-bgImage: https://dl.img.timecdn.cn/2024/07/29/0331bda876ce4acabc6a0fe65adf7290_edit_1037895036757248.png
+bgImage:
 bgImageStyle:
   opacity: 0.5
   background-position: 50% 60%

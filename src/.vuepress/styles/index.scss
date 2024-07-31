@@ -13,11 +13,20 @@ body {
 
 /* 添加默认开启的白色蒙皮 */
 .overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8); /* 默认设置为80%的白色蒙皮 */
-  pointer-events: none; /* 使蒙皮不捕捉鼠标事件，让下面的内容可以操作 */
+  background-color: rgba(255, 255, 255, 0.5); /* 半透明的白色蒙皮 */
+  pointer-events: none; /* 使蒙皮不捕捉鼠标事件 */
+  z-index: 1; /* 确保蒙皮在背景上方 */
+}
+
+.content {
+  position: relative;
+  z-index: 2; /* 确保内容在蒙皮上面显示 */
+  text-align: center;
+  color: #333;
+  margin-top: 20vh; /* 可调整内容的垂直位置 */
 }

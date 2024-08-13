@@ -14,9 +14,6 @@
 | `关闭` 虚拟化 | `开启` 虚拟化 |
 | `或者` 内存 `小于` 4G | `并且` 内存 `大于` 8G |
 
-> 这里注意 `虚拟化` 的开启,需要`Windows专业版`
-
->如果您的Windows版本不是`专业版`,可以考虑升级为专业版或使用 `MSYS2`.
 
 ---
 
@@ -29,7 +26,9 @@
 
 :::
 
-| WSL 安装教程 |
+
+::: details Windwos
+- WSL2安装教程：
 ## 准备工作
  一台Windows10/Windows11系统的电脑（PC）  (这里注意**虚拟化平台**的开启,需要Windows10/11专业版)
 ### 开始
@@ -52,7 +51,7 @@
 ![QQ_1723550823311.png](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723550823311.png)
 
 3.下载后，打开**Ubuntu**，然后等待一会，弹出以下界面：
-![](https://dl.img.timecdn.cn/2024/08/13/QQ_1723551821914.md.png)
+![2](https://dl.img.timecdn.cn/2024/08/13/QQ_1723551821914.md.png)
 
 内容为：
 #### Installing, this may take a few minutes...
@@ -61,11 +60,11 @@ For more information visit: https://aka.ms/wslusers
 
 Enter new UNIX username:
 
-在此输入你想命名的**名字**，按**回车**下一步；然后弹出输入密码（New password），随便输入即可（**必须是你知道的，后面有用**），继续回车确认密码（Retype new password:）
+在此输入你想命名的**名字**，按**回车**下一步；然后弹出输入密码（New password），随便输入即可，继续回车确认密码（Retype new password:）
 
 4.弹出以下界面：
 
-![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723552237514.md.png)
+![3](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723552237514.md.png)
 
 **这里就无需管，关掉窗口**，然后打开系统的**终端管理员（或者CMD管理员运行）**，输入
 ```rust
@@ -73,11 +72,11 @@ Ubuntu  config --default-user root
 ```
 默认切换至**root**用户；(界面/结果如下）
 
-![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723552723640.md.png)
+![4](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723552723640.md.png)
 
 5.再次打开**Ubuntu**程序
 
-![](https://dl3.img.timecdn.cn/2024/08/13/QQ_1723552929831.md.png)
+![5](https://dl3.img.timecdn.cn/2024/08/13/QQ_1723552929831.md.png)
 
 ### 开始安装脚本
 在此输入
@@ -86,13 +85,15 @@ bash <(curl https://gh.arcticfox.top/https://raw.githubusercontent.com/ArcticFox
 ```
 弹出以下界面：
 
-![](https://dl.img.timecdn.cn/2024/08/13/QQ_1723553022034.md.png)
+![6](https://dl.img.timecdn.cn/2024/08/13/QQ_1723553022034.md.png)
 
 输入**同意安装**，按回车即可进行脚本安装；
 
-![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723553142871.md.png)
+![7](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723553142871.md.png)
 
 **启动脚本**命令为
 ```rust
 afyz
 ```
+
+:::

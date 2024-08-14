@@ -34,25 +34,25 @@
 #### 开始前准备：
 1.在电脑任务栏（或开始菜单中）搜索**启用或关闭Windows功能**
 
-![1.png](https://dl.img.timecdn.cn/2024/08/13/QQ_1723550668855.png)
+![](https://dl.img.timecdn.cn/2024/08/13/QQ_1723550668855.png)
 
 2.打开后，将**适用于Windows的linux子系统**及**虚拟机平台**打钩
 
-![2.png](https://dl.img.timecdn.cn/2024/08/13/QQ_1723550712181.png)
+![](https://dl.img.timecdn.cn/2024/08/13/QQ_1723550712181.png)
 
 3.点击确定，然后提示**重启计算机**，选择**马上重启**
 
 #### 正式准备安装：
 1.在系统内，打开**微软商店**
 
-![3.png](https://dl.img.timecdn.cn/2024/08/13/QQ_1723550749345.png)
+![](https://dl.img.timecdn.cn/2024/08/13/QQ_1723550749345.png)
 
 2.然后搜索Ubuntu,选择第一个，选择**下载**
 
-![QQ_1723550800610.png](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723550800610.png)
+![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723550800610.png)
 
 
-![QQ_1723550823311.png](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723550823311.png)
+![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723550823311.png)
 
 
 3.下载后，打开**Ubuntu**，然后等待一会，弹出以下界面：
@@ -64,9 +64,9 @@
 Please create a default UNIX user account. The username does not need to match your Windows username.
 For more information visit: https://aka.ms/wslusers
 
-Enter new UNIX username:
+**Enter new UNIX username:**（用户名字）
 
-在此输入你想命名的**名字**，按**回车**下一步；然后弹出输入密码（New password），随便输入即可（**必须是你知道的，后面有用**），继续回车确认密码（Retype new password:）
+在此输入你想命名的**名字**，按**回车**下一步；然后弹出输入密码（New password），随便输入即可。 继续回车确认密码（Retype new password:）
 
 4.弹出以下界面：
 
@@ -98,7 +98,7 @@ bash <(curl https://gh.arcticfox.top/https://raw.githubusercontent.com/ArcticFox
 ![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723553142871.md.png)
 
 **启动脚本**命令为
-```rust
+```
 afyz
 ```
 

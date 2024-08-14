@@ -7,14 +7,14 @@
 
 -[√]Arch
 
--[√]Debian
+-[√]Debian 
 
 ### 开始
 1.首先在Linux系统内更新软件源及软件包：
-```rust
+```sh
 apt update -y && apt upgrade -y
 ```
 2.开始安装脚本：
-```rust
+```bash
 bash <(curl https://gh.arcticfox.top/https://raw.githubusercontent.com/ArcticFox520/Yunzai-Bot-Script/main/start)
 ```

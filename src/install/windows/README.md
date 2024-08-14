@@ -30,7 +30,7 @@
 :::
 
 
-::: details Windows Subsystem for Linux（wsl）
+::: details WSL
 - wsl教程：
 ## 准备工作
  一台Windows10/Windows11系统的电脑（PC）  (这里注意**虚拟化平台**的开启,需要Windows10/11专业版)
@@ -77,7 +77,7 @@ Enter new UNIX username:
 ![](https://dl2.img.timecdn.cn/2024/08/13/QQ_1723552237514.md.png)
 
 **这里就无需管，关掉窗口**，然后打开系统的**终端管理员（或者CMD管理员运行）**，输入
-```rust
+```bash
 Ubuntu  config --default-user root
 ```
 默认切换至**root**用户；(界面/结果如下）
@@ -90,7 +90,7 @@ Ubuntu  config --default-user root
 
 ### 开始安装脚本
 在此输入
-```rust
+```bash
 bash <(curl https://gh.arcticfox.top/https://raw.githubusercontent.com/ArcticFox520/Yunzai-Bot-Script/main/start)
 ```
 弹出以下界面：

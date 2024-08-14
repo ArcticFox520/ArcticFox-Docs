@@ -11,7 +11,7 @@
 
 ### 开始
 1.首先在Linux系统内更新软件源及软件包：
-```sh
+```bashsh
 apt update -y && apt upgrade -y
 ```
 2.开始安装脚本：

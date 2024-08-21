@@ -72,7 +72,7 @@ dnf install -y
 ```
 :::
 
-2. 然后拉取脚本: 
+2. 然后执行安装脚本: 
 ```bash
-git clone --depth=1 https://github.com/ArcticFox520/Yunzai-Next-Script
+bash <(curl https://raw.githubusercontent.com/ArcticFox520/Yunzai-Bot-Script/main/start)
 ```

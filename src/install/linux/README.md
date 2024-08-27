@@ -23,10 +23,10 @@
 apt -y update
 ```
 
-> 安装git
+> 安装cURL
 
 ```
-apt install -y git
+apt install -y curl
 ```
 :::
 
@@ -37,10 +37,10 @@ apt install -y git
 apt -y update
 ```
 
-> 安装git
+> 安装cURL
 
 ```
-apt install -y git
+apt install -y curl
 ```
 :::
 
@@ -51,10 +51,10 @@ apt install -y git
 pacman -Sy
 ```
 
-> 安装git
+> 安装cURL
 
 ```
-pacman -S --noconfirm --needed git
+pacman -S --noconfirm --needed curl
 ```
 :::
 
@@ -65,10 +65,10 @@ pacman -S --noconfirm --needed git
 dnf -y update
 ```
 
-> 安装git
+> 安装cURL
 
 ```
-dnf install -y
+dnf install -y curl
 ```
 :::
 

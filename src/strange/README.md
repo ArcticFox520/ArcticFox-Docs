@@ -2,7 +2,7 @@
 ## 狐狸窝
 
 > 2024/08/28
-![app node](app_node.png)
+![AppNode](app_node.jpg)
 
 ---
 

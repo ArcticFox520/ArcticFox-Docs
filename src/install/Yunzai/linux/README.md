@@ -75,13 +75,24 @@ dnf install -y git
 
 2. 克隆仓库: 
 ```bash
-git clone https://github.com/ArcticFox520/Yunzai-Script
+git clone --depth=1 https://github.com/ArcticFox520/Yunzai-Script
 ```
+
+::: details 无法正常运行? 看这里
+- 使用下面的命令重新安装
+```
+# 注意: 此命令没有任何返回
+rm -rf Yunzai-Script
+```
+```bash
+git clone --depth=1 https://gitclone.com/github.com/ArcticFox520/Yunzai-Script
+```
+:::
 
 3. 运行安装脚本:
 ```bash
 cd Yunzai-Script
-bash Yunzai-Script/install
+bash install
 ```
 
 > 注意: 请严格安装上述给出命令执行,特别是第三条.

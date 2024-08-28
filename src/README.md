@@ -13,14 +13,14 @@ tagline: 化繁为简 - 轻装上阵
 actions:
   - text: 安装教程
     icon: lightbulb
-    link: /install/
+    link: /install/README.md
     type: primary
 
   - text: 使用文档
-    link: /use/
+    link: /use/README.md
   
   - text: 常见问题
-    link: /question/
+    link: /question/README.md
   
 copyright: false
 footer: false

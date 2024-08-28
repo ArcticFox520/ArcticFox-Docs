@@ -18,10 +18,13 @@ actions:
 
   - text: 使用文档
     link: /use/README.md
-  
+
   - text: 常见问题
     link: /question/README.md
-  
+
+  - text: 抽象乐子
+    link: /strange/README.md
+
 copyright: false
 footer: false
 ---

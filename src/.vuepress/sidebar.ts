@@ -3,16 +3,12 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/install/": [
     {
-      text: "Windows",
-      link: "/install/windows/",
+      text: "Yunzai",
+      link: "/install/Yunzai/",
     },
     {
-      text: "Linux",
-      link: "/install/linux/",
-    },
-    {
-      text: "Android",
-      link: "/install/android/",
+      text: "Karin",
+      link: "/install/Karin/",
     },
   ],
 });

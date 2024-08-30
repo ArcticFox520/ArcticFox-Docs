@@ -95,7 +95,7 @@ For more information visit: https://aka.ms/wslusers
 
 **这里就无需管，直接关掉窗口**，然后打开系统的**终端管理员（或者CMD管理员运行）**，执行
 ```bash
-Ubuntu  config --default-user root
+wsl -d Ubuntu 22.04.3 LTS -u root
 ```
 默认切换至**root**用户；(界面/结果如下）
 
@@ -140,7 +140,10 @@ afyz
 ```powershell
 wsl Ubuntu
 ```
+
+>或在搜索框中搜索Ubuntu22.04打开，执行第三步
+
 - 3. 使用下面的命令启动脚本
 ```bash
-afyn
+afyz
 ```

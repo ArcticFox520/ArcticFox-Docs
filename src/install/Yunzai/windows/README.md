@@ -15,7 +15,7 @@
 | CPU开启`虚拟化` |
 | 内存大于`8G` |
 | 开启`虚拟化平台` |
-> 注意: `虚拟化平台`的开启,需要Windows10/11专业版)
+> 注意: `虚拟化平台`的开启,必须要Windows10/11专业版或企业版)
 
 ### 开始
 #### 开始前准备：
@@ -101,6 +101,14 @@ wsl -d Ubuntu 22.04.3 LTS -u root
 
 ![](root.png)
 
+> 这步可做可不做，只要你能手动切换**root**用户也没问题
+
+> 如果上述指令无法切换，尝试把"Ubuntu 22.04.3 LTS"改成发行版名称，查询发行版名称可在cmd执行以下指令
+
+```bash
+wsl.exe --list --all
+```
+
 5.再次打开**Ubuntu**程序
 
 ![](RootHOME.png)
@@ -125,7 +133,7 @@ bash -c "$(curl -L https://mirrors.chenby.cn/https://raw.githubusercontent.com/A
 最后提示
 ```
 - 安装成功
-- 请使用 afyn 命令 打开脚本
+- 请使用 afyz 命令 打开脚本
 ```
 说明脚本已经安装完成
 **启动脚本**命令为

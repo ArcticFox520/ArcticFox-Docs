@@ -8,6 +8,6 @@
 
 | 项目 | 链接 |
 | :------: | :------: |
-| Yunzai | [链接](./Yunzai/) |
-| Karin | [链接](./Karin/) |
+| Yunzai | [链接](./yunzai/) |
+| Karin | [链接](./karin/) |
 

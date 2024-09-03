@@ -85,7 +85,7 @@ git clone --depth=1 https://github.com/ArcticFox520/Yunzai-Script
 rm -rf Yunzai-Script
 ```
 ```bash
-git clone --depth=1 https://gitclone.com/github.com/ArcticFox520/Yunzai-Script
+git clone --depth=1 https://mirror.ghproxy.com/https://github.com/ArcticFox520/Yunzai-Script
 ```
 :::
 

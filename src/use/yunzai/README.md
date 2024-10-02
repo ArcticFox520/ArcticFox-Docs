@@ -23,7 +23,7 @@ afyz mz #进入Miao-Yunzai的根目录
 ```
 
 ```bash
-afyz mz #进入TRSS-Yunzai的根目录
+afyz tz #进入TRSS-Yunzai的根目录
 ```
 
 ### 操作BOT

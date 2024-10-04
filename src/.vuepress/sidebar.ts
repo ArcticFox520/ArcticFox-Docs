@@ -3,7 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/install/": [
     {
-      text: "Yunzai",
+      text: "yunzai",
       link: "/install/Yunzai/",
     },
     {

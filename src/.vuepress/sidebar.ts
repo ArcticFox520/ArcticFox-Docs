@@ -4,7 +4,7 @@ export default sidebar({
   "/install/": [
     {
       text: "yunzai",
-      link: "/install/Yunzai/",
+      link: "/install/yunzai/",
     },
     {
       text: "Karin",

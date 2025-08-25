@@ -125,5 +125,5 @@ afnq
 #### 卸载
   > 卸载脚本
 ```bash
-rm -rf /usr/local/bin/afab $HOME/NTQQ-Shell
+rm -rf /usr/local/bin/afnq $HOME/NTQQ-Shell
 ```
